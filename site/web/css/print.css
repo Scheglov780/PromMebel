@@ -1,0 +1,19 @@
+.table-cell.value,
+.table-cell.action {
+    display: none !important;
+}
+.minus,
+.plus {
+    display: none !important;
+}
+.table-cell.name {
+    width: 20% !important;
+}
+@media print {
+    @page {
+        size:landscape;
+    }
+}
+input[type='text'] {
+    width: 100% !important;
+}

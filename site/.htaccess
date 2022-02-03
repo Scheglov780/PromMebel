@@ -1,0 +1,18 @@
+<IfModule mod_rewrite.c>
+    Options +FollowSymlinks
+    RewriteEngine On
+</IfModule>
+
+<IfModule mod_rewrite.c>
+    RewriteCond %{REQUEST_URI} ^/.*
+    RewriteRule ^(.*)$ /web/$1 [L]
+
+    RewriteCond %{REQUEST_URI} !^/web
+    RewriteCond %{REQUEST_FILENAME} !-f [OR]
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^.*$ /web/index.php
+</IfModule>
+
+<FilesMatch "\.(ogg|ogv|svg|svgz|eot|woff2|otf|woff|mp4|ttf|rss|atom|jpg|js|css|jpeg|gif|png|ico|zip|tgz|gz|rar|bz2|doc|xls|exe|ppt|tar|mid|midi|wav|bmp|rtf)$">
+    Header set Cache-Control "max-age=2592000, must-revalidate"
+</FilesMatch>

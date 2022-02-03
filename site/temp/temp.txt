@@ -1,0 +1,8 @@
+    cart-cont
+/cart
+    to-cart
+/img/cart.svg
+    cart-text
+    mobile-cart-count
+    popup-cart
+    cart-ajax

@@ -1,0 +1,133 @@
+/* @import url("/css/site.css"); */
+
+.print-body {
+  height: 100%;
+  font-family: sans-serif, Arial, Verdana, "Trebuchet MS", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.logo-block {
+  width: 100%;
+  display: block;
+}
+
+.logo {
+  width: 74px;
+  display: inline-block;
+}
+
+.logo-text {
+  width: 180px;
+  margin-left: 8px;
+  display: inline-block;
+}
+
+.logo-cont {
+  float: left;
+  width: 274px;
+  display: inline-block;
+}
+
+.logo-contacts {
+  float: left;
+  /* width:60%; */
+  display: inline-block;
+  padding-left: 20px;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.cart-body {
+  display: block;
+  font-size: 12px;
+}
+
+.table-cart-print, .table-cart-print2 {
+  width: 100%;
+}
+
+table, tr, td {
+  border-collapse: collapse;
+  text-align: left;
+  padding: 0;
+  margin: 0;
+}
+
+
+.table-cart-print thead td {
+  font-weight: bold;
+  font-size: 12px;
+  text-align: left;
+  vertical-align: top;
+  padding: 6px 10px 6px 10px;
+}
+
+.table-cart-print tbody td {
+  font-size: 12px;
+  text-align: right;
+  vertical-align: top;
+  padding: 6px;
+}
+
+.table-cart-print2 tbody td {
+  font-size: 12px;
+  text-align: left;
+  vertical-align: top;
+  padding: 6px;
+}
+
+
+tbody .cart-print-photo {
+  width: 100px;
+  display: none;
+}
+
+thead .cart-print-n {
+  width: 15px;
+}
+
+thead .cart-print-name {
+  width: auto;
+}
+
+tbody .cart-print-name {
+  text-align: left;
+}
+
+thead .cart-print-count {
+  width: 20px;
+}
+
+thead .cart-print-main-price {
+  width: 60px;
+}
+
+thead .cart-print-volume {
+  width: 20px;
+}
+
+thead .cart-print-weight {
+  width: 20px;
+}
+
+thead .cart-print-sum-price {
+  width: 60px;
+}
+
+tbody .cart-print-total {
+  font-weight: bold;
+  border: 0;
+}
+
+tbody .cart-print-sum-price {
+  font-weight: bold;
+}
+
+td.print-left {
+  text-align: left !important;
+}
+
+td.print-center {
+  text-align: center !important;
+}

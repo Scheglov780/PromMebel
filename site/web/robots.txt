@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /admin
+Disallow: /*?
+
+Host: https://xn----7sbencb0bgbeiainp4k1b4a4c.xn--p1acf/
+Sitemap: https://xn----7sbencb0bgbeiainp4k1b4a4c.xn--p1acf/sitemap.xml
